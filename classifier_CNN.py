@@ -5,8 +5,8 @@ from util.util_text_classifier import pad_sequence
 from model_fn.model_fn_text_classifiers import CNN_text_classifier
 from util.util_text_classifier import plot_history
 
-dataset_dictionary ={'Market Logic Software':  'data/Market_Logic_Software_dataset.txt'}  # creating a dictionary
-# with key as source of data (in this case, it is Market Logic Software). And the value part of dictionary is
+dataset_dictionary ={'Dataset':  'data/dataset.txt'}   # creating a dictionary
+# with key as source of data. And the value part of dictionary is
 # the address of the dataset.
 categorized_dataset = categorize_dataset(dataset_dictionary)  # returns data organized in class, text and
 # source of dataset
